@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=LXGW+WenKai+TC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400px;
+}
+
+:root {
+    --verde-marrom: rgb(21, 77, 11);
+    --marrom-arrosado: rgb(124, 188, 147);
+    --violeta-africano: rgb(137, 169, 109);
+    --violeta-chines: rgb(26, 10, 92);
+    --estrela-cadente: #3b3b58ff;
+    --fonte-titulo: "Bebas Neue", sans-serif;
+    --fonte-texto: "LXGW WenKai TC", cursive;
+}
+
+body {
+    background-color: var(--violeta-chines);
+    color: var(--marrom-arrosado);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal {
+    background-color: var(--violeta-chines);
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+    padding: 50px;
+}
+
+.titulo {
+    color: var(--marrom-arrosado);
+    font-family: var(--fonte-titulo);
+}
+
+button {
+    background-color: var(--estrela-cadente);
+    color: var(--marrom-arrosado);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: var(--violeta-africano);
+}
