@@ -1,46 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=LXGW+WenKai+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
-    font-weight: 400px;
+    font-weight: 400;
+
 }
 
 :root {
-    --verde-marrom: rgb(21, 77, 11);
-    --marrom-arrosado: rgb(124, 188, 147);
-    --violeta-africano: rgb(137, 169, 109);
-    --violeta-chines: rgb(26, 10, 92);
-    --estrela-cadente: #3b3b58ff;
-    --fonte-titulo: "Bebas Neue", sans-serif;
-    --fonte-texto: "LXGW WenKai TC", cursive;
-}
+    --Roxo-forte: rgb(84, 213, 211);
+    --Roxo: rgb(34, 110, 118);
+    --Roxo-fraco: rgb(25, 149, 128);
+    --Azul-fraco: rgb(36, 110, 200);
+    --Azul-muito-fraco: #4ea8deff;
+    --Marinho: #48bfe3ff;
+    --font-family: "Grey Qo", cursive;
+    --font-family: "Grey Qo", cursive;
 
-body {
-    background-color: var(--violeta-chines);
-    color: var(--marrom-arrosado);
+}
+body{
+    background-color: var(--Roxo-forte);
+    color: var(--Marinho);
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-texto)
 }
 
-.caixa-principal {
-    background-color: var(--violeta-chines);
+.caixa-principal{
+    background-color: var(--Roxo);
     width: 90%;
-    max-width: 1000px;
+    max-width: 600px;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
-.titulo {
-    color: var(--marrom-arrosado);
+.titulo{
+    color: var(--Azul-fraco);
     font-family: var(--fonte-titulo);
 }
 
-button {
-    background-color: var(--estrela-cadente);
-    color: var(--marrom-arrosado);
+button{
+    background-color: var(--Azul-muito-fraco);
+    color: var(--Roxo-forte);
     border: none;
     border-radius: 15px;
     padding: 15px;
@@ -48,6 +51,6 @@ button {
     margin: 10px auto;
 }
 
-button:hover {
-    background-color: var(--violeta-africano);
+button:hover{
+    background-color: var(--Azul-fraco);
 }
