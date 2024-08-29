@@ -6,7 +6,7 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: "Enunciado 01",
+        enunciado: "Na escola tancredo, Gian, um estudante de 15 anos, está enfrentando racismo. Ele tem sido alvo de comentários e exclusões devido à sua origem afrodescendente.",
         alternativas: [
             {
                 texto:"alternativa 01",
