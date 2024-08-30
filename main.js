@@ -6,68 +6,68 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: "Na escola tancredo, Gian, um estudante de 15 anos, está enfrentando racismo. Ele tem sido alvo de comentários e exclusões devido à sua origem afrodescendente.",
+        enunciado: "No ano 2024 um estudante, Gian, que estava no último ano de Engenharia Elétrica. Quando recebeu a oferta para estagiar na Itaipu Binacional, ele ficou extasiado, mas também um pouco nervoso. Decidiu conversar com seu mentor, o professor Romildo, para obter alguns conselhos antes de tomar sua decisão...  Professor Roberto pergunta a Gian: Você já considerou como esse estágio pode impactar sua vida acadêmica e profissional? Você está preparado para os desafios que virão? ",
         alternativas: [
             {
-                texto:"alternativa 01",
-                afirmacao: "resultado 01"
+                texto:"Gian sente que está pronto para os desafios e aceita o estágio com entusiasmo.",
+                afirmacao: ""
             },
             {
-                texto:"alternativa 02",
-                afirmacao: "resultado 02"
-            }   
+                texto:"Gian quer iniciar logo sua carreira.",
+                afirmacao: ""
+            },
         ]
     },
     {
-        enunciado: "Enunciado 02",
+        enunciado: "Gian diz estar preparado para o desafio. Sempre quis trabalhar em um projeto grande e aprender com os melhores. O professor sorri e apoia a decisão de Gian. Ele inicia seu estágio na Itaipu com grande empolgação.",
         alternativas: [
             {
-                texto: "alternativa 03",
-                afirmacao: "resultado03"
+                texto: "Gian Trabalha em um projeto inovador que envolve novas tecnologias de energia.",
+                afirmacao: ""
             },
             {
-                texto: "alternativa 04",
-                afirmacao: "resultado 04"
+                texto: "Ele está muito feliz pelo começo da sua carreira.",
+                afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "Enunciado 03",
+        enunciado: "Gian é designado para um projeto inovador. Ele passa semanas mergulhado em novas tecnologias e, finalmente, apresenta um protótipo que impressiona seus supervisores. Como resultado, ele é convidado a liderar uma equipe para desenvolver a tecnologia ainda mais. Gian está um pouco nervoso e reflete sobre.. Qual decisão ele deve tomar?",
         alternativas: [
             {
-                texto: "alternativa 05",
-                afirmacao: "resultado 05"
+                texto: " Trabalhar como assistente em um projeto menor.",
+                afirmacao: ""
             },
             {
-                texto: "alternativa 06",
-                afirmacao: "resultado 06"
+                texto: "Aceitar com o medo mesmo.",
+                afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "Enunciado 04",
+        enunciado: "Gian começa como assistente em um projeto menor, onde pode observar e aprender. Com o tempo, sua confiança aumenta e ele começa a se envolver em tarefas mais complexas. Seus colegas notam sua dedicação e o promovem para um papel mais ativo no projeto. Onde acaba tendo outras oportunidades:",
         alternativas: [
             {
-                texto: "alternativa 07",
-                afirmacao: "resultado 07"
+                texto: "Participar de um grupo de estudo e análise de dados.",
+                afirmacao: ""
             },
             {
-                texto: "alternativa 08",
-                afirmacao: "resultado 08"
+                texto: "Aceitar uma posição de liderança em um novo projeto inovador.",
+                afirmacao: ""
             }
         ]
     },
     {
-        enunciado: "Enunciado 05",
+        enunciado: "Gian, agora com mais confiança e experiência, é convidado a liderar um novo projeto inovador. Ele aceita o desafio, coordena uma equipe e apresenta um projeto bem-sucedido que recebe elogios da alta administração da Itaipu. Gian sente que sua escolha de começar com um papel menor foi uma estratégia sábia, Logo após, Gian decide se especializar em um campo técnico específico, aprofundando seus conhecimentos em uma área crucial. Ele se torna um especialista respeitado e contribui para o desenvolvimento de novas tecnologias dentro da Itaipu. :",
         alternativas: [
             {
-                texto: "alternativa 09",
-                afirmacao: "resultado 09"
+                texto: "Ele está muito feliz por ter se tornado uns dos melhores especialistas.",
+                afirmacao: ""
             },
             {
-                texto: "alternativa 10",
-                afirmacao: "resultado 10"
-            }
+                texto: "Está satisfeito pelas suas decisões.",
+                afirmacao: ""
+            },
         ]
     },
 ]
@@ -104,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = " Inicio do texto... "
+    caixaPerguntas.textContent = "Independente das escolhas de Gian, ele aproveita cada oportunidade para crescer e se desenvolver. Ele descobre que a combinação de preparação, experiência gradual e dedicação pode levar a grandes realizações. Ao final de seu estágio na Itaipu, Gian está mais confiante e preparado para sua futura carreira, pronto para enfrentar novos desafios com a experiência adquirida e as lições aprendidas. "
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
